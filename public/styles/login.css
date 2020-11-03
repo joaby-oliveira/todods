@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.flexbox-container-1 {
+    height: 25vh;
+}
+
+.flexbox-container-2 {
+    height: 75vh;
+}
+
+.container {
+    background: linear-gradient(179.98deg, #B374C4 0.02%, #FFFFFF 43.58%);
+}
+
+.iconify {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+}
+
+.flexbox-container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    color: #414141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+    margin: 10px 0 0 0;
+}
+
+.main-title > h1 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexbox-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(179.99deg, #FFE8E8 0.01%, #A55EB8 94.79%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px 50px 0px 0px;
+}
+
+.login-title > h1{
+    font-family: 'Oswald', sans-serif;
+    margin-top: -40px;
+    font-size: 48px;
+    font-weight: 400;
+    color: #414141;
+}
+
+.logo-icon > img {
+    margin-top: -60px;
+}
+
+.email-container, .password-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.email-container > label, .password-container > label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #414141;
+}
+
+.email-container > input, .password-container > input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background: #ECE1EE;
+}
+
+.email-container {
+    margin-top: 30px;
+}
+
+.password-container {
+    margin-top: 20px;
+}
+
+.submit-container {
+    width: 190px;
+    margin-top: 80px;
+}
+
+.submit-container > input[type=submit] {
+    color: #EDEDED;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, #E0435E 0%, #E0435E 100%);
+    box-shadow: 0px 4px 4px rgba(224, 67, 94, 0.25);
+    border-radius: 10px;
+}
+
+.forgot-password-container {
+    width: 80%;
+}
+
+.forgot-password-container > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #8300C1;
+}
+
+.register-container > a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #323232;
+}
+
