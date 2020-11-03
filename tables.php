@@ -17,16 +17,32 @@ include "public/components/Header/header.php";
         <section class="tables-container">
 
             <article class="table-item">
-                <i>...</i>
-                <h3>Tarefas da escola</h3>
+                <div class="titleOptions-block">
+                    <i><img src="public/icons/icon-dots.svg" alt="Ver mais"></i>
+                    <h3>Tarefas da escola</h3>
+                </div>
+                <img src="https://images.unsplash.com/photo-1602525963389-fde1e08ca487?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Imagem de fundo">
             </article>
-
-            <article class="table-add">
+            <article class="table-item">
+                <div class="titleOptions-block">
+                    <i><img src="public/icons/icon-dots.svg" alt="Ver mais"></i>
+                    <h3>Tarefas da escola</h3>
+                </div>
+                <img src="https://images.unsplash.com/photo-1602525963389-fde1e08ca487?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Imagem de fundo">
+            </article>
+            <article class="table-item">
+                <div class="titleOptions-block">
+                    <i><img src="public/icons/icon-dots.svg" alt="Ver mais"></i>
+                    <h3>Tarefas da escola</h3>
+                </div>
+                <img src="https://images.unsplash.com/photo-1602525963389-fde1e08ca487?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Imagem de fundo">
+            </article>
+            <article class="table-add table-item">
                 <i><img src="public/icons/icon-plus.svg" alt="Ícone de adicionar tabela "></i>
             </article>
 
         </section>
     </main>
-    <?php include "footer.php";?>
+    <?php //include "footer.php";?>
 </body>
 </html>
