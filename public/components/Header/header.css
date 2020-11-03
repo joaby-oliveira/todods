@@ -1,0 +1,78 @@
+.container {
+    background: #FFFFFF;
+}
+.container header {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.container header h1 {
+    font: 700 2.4rem 'Montserrat';
+    color: #414141;
+    width: 80%;
+    text-align: center;
+}
+.container header .searchFilter-container,
+.container header form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.container header .search {
+    background: var(--light-bg-input);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border: 2px solid var(--light-stroke-input);
+    border-radius: .7rem;
+    height: 2.5rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.container header .search input,
+.container header .search button {
+    background: none;
+    height: 100%;
+}
+.container header .search button {
+    width: 20%;
+}
+.container header .search input#search {
+    padding: .2rem .8rem 0 .8rem ;
+    font-family: 'Poppins';
+    color: #424242;
+    width: 80%;
+}
+.container header .search input#search::placeholder{
+    font-family: 'Poppins';
+    color: #424242;
+}
+.container header .search button#submit {
+    padding: 0 .8rem;
+    border-left: 2px solid var(--light-stroke-input);
+}
+.container header .filter-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container header .filter-block label {
+    color: #424242;
+    font-family: 'Poppins';
+}
+.container header .filter-block #filter {
+    background: var(--light-bg-input);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border: 2px solid var(--light-stroke-input);
+    border-radius: .7rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    color: #424242;
+    margin-left: 1rem;
+}
+.container header .logo {
+    width: 33%;
+}
