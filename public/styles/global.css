@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+    /* Inputs variables */
+    --light-stroke-input: #C2BEBE;
+    --dark-stroke-input: #202020;
+    --light-bg-input: #FFFFFF;
+    --dark-bg-input: #303030;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}

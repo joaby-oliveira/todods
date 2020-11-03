@@ -1,23 +1,31 @@
+<?php
+include "public/components/Header/header.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/styles/tables.css">
+    <link rel="stylesheet" href="public/styles/global.css">
+    <link rel="stylesheet" href="public/components/Header/header.css">    
     <title>Tabelas</title>
 </head>
 <body>
-    <?php include "header-main.php";?>
     <main class="container">
-        
-        <article class="tables-container">
-            <div class="table-item">
+        <?= createHeader("Aqui estão suas tarefas <img src='public/icons/icon-smile.svg'>"); ?>
+        <section class="tables-container">
+
+            <article class="table-item">
                 <i>...</i>
                 <h3>Tarefas da escola</h3>
-            </div>
-            <div class="table-add">
-                <i>+</i>
-            </div>
-        </article>
+            </article>
+
+            <article class="table-add">
+                <i><img src="public/icons/icon-plus.svg" alt="Ícone de adicionar tabela "></i>
+            </article>
+
+        </section>
     </main>
     <?php include "footer.php";?>
 </body>
