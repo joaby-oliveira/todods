@@ -27,6 +27,17 @@
     justify-content: center;
 }
 
+.flexbox-container-2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(179.99deg, #FFFFFF 0.01%, #B6B6B6 94.79%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px 50px 0px 0px;
+    padding-bottom: 2rem;
+}
+
 .main-title {
     color: #414141;
     display: flex;
@@ -43,16 +54,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.flexbox-container-2 {
-    min-height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(179.99deg, #FFFFFF 0.01%, #B6B6B6 94.79%);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 50px 50px 0px 0px;
-}
-
 .logo-icon > img {
     margin-top: -60px;
 }
@@ -65,20 +66,21 @@
     color: #414141;
 }
 
-.email-block, .password-block {
+.name-block, .user-block, .born-block, .sex-block, .email-block, .password-block, .confirmPass-block {
     display: flex;
     flex-direction: column;
     width: 80%;
+    margin-top: 20px;
 }
 
-.email-block > label, .password-block > label {
+.name-block > label, .user-block > label, .born-block > label, .sex-block > label, .email-block > label, .password-block > label, .confirmPass-block > label {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #414141;
 }
 
-.email-block > input, .password-block > input {
+.name-block > input, .user-block > input, .born-block > input, .sex-block > select, .email-block > input, .password-block > input, .confirmPass-block > input {
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -87,13 +89,9 @@
     background: #F8F8F8;
 }
 
-.email-block, .password-block {
-    margin-top: 30px;
-}
-
 .submit-block {
     width: 190px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .submit-block > input[type=submit] {
@@ -108,24 +106,3 @@
     box-shadow: 0px 4px 4px rgba(224, 67, 94, 0.25);
     border-radius: 10px;
 }
-
-.forgotPass-block {
-    width: 80%;
-}
-
-.forgotPass-block > h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    color: #8300C1;
-}
-
-.register-block > a {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #323232;
-}
-
