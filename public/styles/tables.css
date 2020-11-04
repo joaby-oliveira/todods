@@ -18,7 +18,8 @@
     height: 8rem;
 }
 .container .tables-container .table-add,
-.container .tables-container .table-add i {
+.container .tables-container .table-add i,
+.container .tables-container .table-add a {
     display: flex;
     flex-direction: center;
     justify-content: center;
@@ -49,6 +50,6 @@
     margin: .2rem 0 0 .2rem;
     width: 2rem;
 }
-.container .tables-container .table-item .titleOptions-block:hover {
-    filter: brightness(65%);
+.container .tables-container .table-item .titleOptions-block i {
+    cursor: pointer;
 }
