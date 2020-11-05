@@ -5,12 +5,13 @@ include 'public/components/Recover/recover.php';
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="public/styles/login.css">
+    <link rel="stylesheet" href="public/styles/recover.css">
+    <link rel="stylesheet" href="public/styles/forms.css">
     <link rel="stylesheet" href="public/styles/global.css">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Recuperação de senha</title>
 </head>
 <body>
     <main class="container">
@@ -20,7 +21,7 @@ include 'public/components/Recover/recover.php';
                 <span class="iconify" data-inline="false" data-icon="ion:chevron-back-outline"></span>
             </div>
             <div class="main-title">
-                <h1>Fique organizado com o TodoDS</h1>
+                <h1>Recuperação de senha</h1>
             </div>
         </div>
 
