@@ -1,0 +1,214 @@
+.container {
+    background: linear-gradient(179.98deg, #FFFFFF 0.02%, #B6B6B6 53.12%);
+    background-image: url("../images/bookshelf.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100%;
+}
+
+.iconify {
+    position: absolute;
+    color: #E0435E;;
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+}
+
+.flexbox-container-1 {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-container-2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(179.99deg, rgba(255, 255, 255, 0.9) 0.53%, #BFBFBF 94.79%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 31px 30px 0px 0px;
+    align-items: center;
+    width:100%;
+}
+
+#header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1.4rem 1.2rem 0 1.2rem;
+}
+
+#header1 h2{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+#header1 img{
+    filter: brightness(0%);
+}
+
+#profile-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-picture img{
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #31BF3F;
+    margin-top: -75px;
+}
+
+#profile-picture p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#desc1 p{
+    border: 2px solid #ABA3A3;
+    text-align: center;
+    padding: 1.4rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#header2{
+    width: 95%;
+    padding: 0rem 1.2rem;
+}
+
+#desc2{
+    margin-top: 1.3rem;
+    border-bottom: 1px solid #ABA3A3;
+}
+
+#data header, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#data header #name, #data header #team{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#data footer #followers{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#data footer #team-value{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.flexbox-container-3{
+    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #B6B6B6 100%);
+}
+
+.main-title{
+    display:flex;
+    flex-direction: row;
+
+    margin-top: 2.6rem;
+}
+
+.main-title h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.main-title img{
+    width: 32px;
+    margin: .6rem 0 0 .6rem;
+}
+
+.flexbox-container-3 ul{
+    width:100%;
+    padding: 0 2rem;
+}
+
+#personal-data div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3.6rem;
+}
+
+.flexbox-container-3 ul h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #676767;
+}
+
+#personal-data div a, .flexbox-container-3 ul li div a{
+    text-decoration: none;
+    color: #0057BE;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: .1rem;
+}
+
+.flexbox-container-3 ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ABA3A3;
+    padding: .6rem 0 .6rem 1rem;
+    align-items: center;
+}
+
+.flexbox-container-3 ul li strong{
+    width:23%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.flexbox-container-3 ul li p{
+    width:77%;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.flexbox-container-3 ul li div{
+    width:77%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexbox-container-3 ul li div p{
+    width: 50%;
+}
+
+#statistics li strong{
+    width:180%;
+}
+
+#account-data h2, #statistics h2{
+    margin-top: 2rem;
+}
+
+#statistics{
+    margin-bottom: 3rem;
+}
