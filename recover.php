@@ -62,8 +62,8 @@ include 'public/components/Recover/recover.php';
                             <div class="password-block">
                                 <label for="">Confirmar senha</label>
                                 <input type="text" placeholder="********">
-                            </div>
-                            '
+                            </div>',
+                            'Insira sua nova senha para ter acesso ao site.'
                         );
                     }
                 }

@@ -69,23 +69,24 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-.name-block, .user-block, .born-block, .sex-block, .email-block, .password-block, .confirmPass-block {
+.name-block, .user-block, .born-block, .sex-block, .email-block, .password-block, .confirmPass-block, .code-block {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin-top: 20px;
 }
 
-.name-block > label, .user-block > label, .born-block > label, .sex-block > label, .email-block > label, .password-block > label, .confirmPass-block > label {
+.name-block > label, .user-block > label, .born-block > label, .sex-block > label, .email-block > label, .password-block > label, .confirmPass-block > label, .code-block > label {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #414141;
 }
 
-.name-block > input, .user-block > input, .born-block > input, .sex-block > select, .email-block > input, .password-block > input, .confirmPass-block > input {
+.name-block > input, .user-block > input, .born-block > input, .sex-block > select, .email-block > input, .password-block > input, .confirmPass-block > input, .code-block > input {
     border: none;
     padding: 10px;
     border-radius: 10px;
