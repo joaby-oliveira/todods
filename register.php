@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="public/styles/register.css">
+    <link rel="stylesheet" href="public/styles/forms.css">
     <link rel="stylesheet" href="public/styles/global.css">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     
