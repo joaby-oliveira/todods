@@ -33,6 +33,7 @@
     border-radius: 31px 30px 0px 0px;
     align-items: center;
     width:100%;
+    user-select: none;
 }
 
 #header1{
@@ -74,6 +75,7 @@
 }
 
 #desc1 p{
+    font-family: 'Poppins';
     border: 2px solid #ABA3A3;
     text-align: center;
     padding: 1.4rem;
@@ -118,6 +120,9 @@
 .flexbox-container-3{
     width: 100%;
     background: linear-gradient(180deg, #FFFFFF 0%, #B6B6B6 100%);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    user-select: text;
 }
 
 .main-title{
