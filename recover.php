@@ -40,6 +40,7 @@ include 'public/components/Recover/recover.php';
                         <input type="email" placeholder="Ex: email@email.com">
                     </div>',
                     'Enviaremos um código ao seu email para a redefinição de sua senha.',
+                    1,
                     2
                 );
                 
@@ -52,6 +53,7 @@ include 'public/components/Recover/recover.php';
                                 <input type="text" placeholder="Digite o código">
                             </div>',
                             'Insira o código enviado em seu email para criar uma nova senha.',
+                            $_GET['step'],
                             3
                         );
                     }else if($_GET['step'] == 3) {
@@ -65,14 +67,14 @@ include 'public/components/Recover/recover.php';
                                 <label for="">Confirmar senha</label>
                                 <input type="text" placeholder="********">
                             </div>',
-                            'Insira sua nova senha para ter acesso ao site.'
+                            'Insira sua nova senha para ter acesso ao site.',
+                            3,
+                            1
                         );
                     }
                 }
                 echo $recoverElement;
             ?>
-
-            
         </div>
 
     </main>
