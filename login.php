@@ -11,13 +11,14 @@
     <title>Login</title>
 </head>
 <body>
+    <div class="btn-back">
+        <a href="./index.php">
+            <img src="public/icons/icon-back.svg" alt="">
+        </a>
+    </div>
     <main class="container">
 
-        
         <div class="flexbox-container-1">
-            <div class="btn-back">
-                <span class="iconify" data-inline="false" data-icon="ion:chevron-back-outline"></span>
-            </div>
             <div class="main-title">
                 <h1>Fique organizado com o TodoDS</h1>
             </div>

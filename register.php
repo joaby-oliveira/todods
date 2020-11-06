@@ -10,13 +10,14 @@
     <title>Registro</title>
 </head>
 <body>
+    <div class="btn-back">
+        <a href="./index.php">
+            <img src="public/icons/icon-back.svg" alt="">
+        </a>
+    </div>
     <main class="container">
-
         
         <div class="flexbox-container-1">
-            <div class="btn-back">
-            <a href="login.php"><span class="iconify" data-inline="false" data-icon="ion:chevron-back-outline"></span></a>
-            </div>
             <div class="main-title">
                 <h1>Comece se organizando <img src="public/icons/icon-kiss.svg"></h1>
             </div>
