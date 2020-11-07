@@ -1,6 +1,3 @@
-<?php
-include "public/components/Header/header.php";
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
