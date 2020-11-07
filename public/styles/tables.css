@@ -1,13 +1,75 @@
+.close-tablePreview {
+    width: 100%;
+    padding: 2rem 0 0 2rem;
+}
+.tablePreview-container header {
+    font-family: 'Montserrat';
+    color: #2b2b2b;
+    margin: 2rem 0;
+}
+.rows-container {
+    width: 100%;
+}
+.row {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+}
+.row h2 {
+    color: #424242;
+}
+.row h2, .row .link a {
+    font-family: 'Poppins';
+}
+.row p {
+    font-family: 'Oswald';
+    color: #606060;
+    font-weight: 400;
+}
+.row > *, .row, .row p, .row .link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row > * {
+    width: 33%;
+}
+
+.row .description {
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.row .link a {
+    width: 50%;
+    padding: .6rem;
+    background: #E0435E;
+    text-decoration: none;
+    color: #dedede;
+    font-weight: 700;
+    border-radius: 8rem;
+    transition: 0.2s ease;
+}
+.row .link a:hover {
+    filter: brightness(120%);
+}
+.row .link a span {
+    margin-right: .4rem;
+}
 .tablePreview-container {
     position: absolute;
     width: 80vw;
-    height: 80vh;
+    height: 100vh;
     margin: 2rem;
-    background: linear-gradient(179.99deg, rgba(255, 255, 255, 0.9) 0.01%, rgba(182, 182, 182, 0.9) 99.99%);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(179.99deg, #ffffffe6 0.01%, #b6b6b6 99.99%);
+    box-shadow: 0px 0px 20px #00000040;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .container {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,11 +82,14 @@
 }
 
 .container .tables-container .table-item {
-    position: relative;
     margin: 1rem;
     border-radius: .8rem;
     width: 8rem;
     height: 8rem;
+    background: url('../images/bookshelf.png');
+}
+.container .tables-container .table-add {
+    background: none;
 }
 .container .tables-container .table-add,
 .container .tables-container .table-add i,
@@ -40,7 +105,6 @@
 }
 
 .container .tables-container .table-item .titleOptions-block {
-    position: absolute;
     height: 100%;
     border-radius: .8rem;
     background: #212121bf;
