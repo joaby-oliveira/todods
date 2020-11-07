@@ -7,6 +7,7 @@ include "public/components/Header/header.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/styles/tables.css">
+    <link rel="stylesheet" href="public/styles/footer.css">
     <link rel="stylesheet" href="public/styles/global.css">
     <link rel="stylesheet" href="public/components/Header/header.css">    
     <script defer src="public/scripts/tablesPreview.js"></script>
@@ -100,6 +101,6 @@ include "public/components/Header/header.php";
 
         </section>
     </main>
-    <?php //include "footer.php";?>
+    <?php include_once 'public/components/Footer/footer.php' ?>
 </body>
 </html>
