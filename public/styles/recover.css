@@ -1,5 +1,54 @@
+@keyframes loadingAnimation1 {
+    0% {
+     width: 0%;
+    }
+    100% {
+     width: 33%;
+    }
+}
+@keyframes loadingAnimation2 {
+    0% {
+     width: 33%;
+    }
+    100% {
+     width: 66%;
+    }
+}
+@keyframes loadingAnimation3 {
+    0% {
+     width: 66%;
+    }
+    100% {
+     width: 100%;
+    }
+}
+#loading-track {
+    margin-top: .5rem;
+    width: 70%;
+    height: .7rem;
+    background: #f8f8f8;
+}
+#loading-thumb {
+    min-width: 33%;
+    height: .7rem;
+    background: #BAFF9A;
+}
+.loading1 {
+    width: 33%;
+    animation: loadingAnimation1 2s;
+}
+
+.loading2 {
+    width: 66%;
+    animation: loadingAnimation2 2s;
+}
+
+.loading3 {
+    width: 100%;
+    animation: loadingAnimation3 2s;
+}
 .recover-description {
-    margin: 60px 0 40px 0;
+    margin-top: 2rem;
     width: 70%;
     text-align: center;
     font-size: 16px;

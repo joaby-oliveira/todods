@@ -14,7 +14,6 @@ include "public/components/Header/header.php";
 </head>
 <body>
     <div class="tablePreview-container hide">
-
         <header>
             <h1>Tarefas</h1>
         </header>

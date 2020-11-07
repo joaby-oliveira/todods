@@ -14,3 +14,21 @@
     outline: none;
     border: none;
 }
+
+.btn-back {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-back:hover {
+    filter: brightness(96%);
+}
+
+.btn-back img {
+    width: 2.5rem;
+    box-shadow: 0 0 10px #3f383840;
+    border-radius: 5rem;
+}

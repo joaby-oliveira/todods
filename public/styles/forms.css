@@ -22,7 +22,7 @@
 }
 
 .flexbox-container-1 {
-    height: 25vh;
+    min-height: 25vh;
     display: flex;
     justify-content: center;
 }
@@ -35,7 +35,7 @@
     flex-wrap: wrap;
     text-align: center;
     width: 90%;
-    margin: 10px 0 0 0;
+    margin: 10px 0 30px 0;
 }
 
 .main-title > h1 {
@@ -51,6 +51,7 @@
     background: linear-gradient(179.99deg, #FFFFFF 0.01%, #B6B6B6 94.79%);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 50px 50px 0px 0px;
+    padding-bottom: 2rem;
 }
 
 .logo-icon > img {
@@ -93,6 +94,7 @@ form {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     background: #F8F8F8;
+    border: 2px solid #C2BEBE;
 }
 
 .submit-block {
@@ -111,4 +113,9 @@ form {
     background: linear-gradient(90deg, #E0435E 0%, #E0435E 100%);
     box-shadow: 0px 4px 4px rgba(224, 67, 94, 0.25);
     border-radius: 10px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.submit-block > input[type=submit]:hover, .submit-block > button:hover {
+    filter: brightness(120%);
 }

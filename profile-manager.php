@@ -9,11 +9,13 @@
     <title>Perfil</title>
 </head>
 <body>
+    <div class="btn-back">
+        <a href="./index.php">
+            <img src="public/icons/icon-back.svg" alt="">
+        </a>
+    </div>
     <main class="container">
         <div class="flexbox-container-1">
-            <div class="btn-back">
-                <a href="tables.php"><span class="iconify" data-inline="false" data-icon="ion:chevron-back-outline"></span></a>
-            </div>
         </div>
         <div class="flexbox-container-2">
             <div id="header1">

@@ -1,5 +1,5 @@
 <?php
-function createRecover($header, $elements, $description = '', $nextStep = null) {
+function createRecover($header, $elements, $description = '', $step, $nextStep = null) {
     $recoverElement = "
     <div class='login-title'>
         <h1>$header</h1>
@@ -11,6 +11,10 @@ function createRecover($header, $elements, $description = '', $nextStep = null) 
             <button name='step' value='$nextStep'>Avançar</button>
         </div>
     </form>
+    <div id='loading-track'>
+        <div id='loading-thumb' class='loading" . $step . "'>
+        </div>
+    </div>
     ";
     return $recoverElement;
 }
