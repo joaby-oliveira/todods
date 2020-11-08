@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/styles/profile-manager.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="public/styles/profile-header.css">
-=======
     <link rel="stylesheet" href="public/styles/footer.css">
->>>>>>> 4acdb41a44e7209dcde8f0a8d8a6c1678536d7ec
     <link rel="stylesheet" href="public/styles/global.css">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>   
     <title>Perfil</title>
