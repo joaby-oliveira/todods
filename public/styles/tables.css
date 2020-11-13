@@ -1,3 +1,6 @@
+.hide {
+    display: none !important;
+}
 .close-tablePreview {
     width: 100%;
     padding: 2rem 0 0 2rem;

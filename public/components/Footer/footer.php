@@ -1,18 +1,24 @@
 <footer class="navbar">
     <ul class="nav-item">
         <li class="item">
-            <i class="svg-icon"><img src="public/icons/icon-house.svg" alt=""></i>
-            <label for=''>Tela inicial</label>
+            <a href="tables.php">
+                <i class="svg-icon"><img src="public/icons/icon-house.svg" alt=""></i>
+                <span>Tela inicial</span>
+            </a>
         </li>
 
         <li class="item">
-            <i class="svg-icon"><img src="public/icons/icon-paperclip.svg" alt=""></i>
-            <label for=''>Adicionar tarefas</label>
+            <a href="add-tasks.php">
+                <i class="svg-icon"><img src="public/icons/icon-paperclip.svg" alt=""></i>
+                <span>Adicionar tarefas</span>
+            </a>
         </li>
 
         <li class="item">
-            <i class="svg-icon"><img src="public/icons/icon-profile.svg" alt=""></i>
-            <label for=''>Conta</label>
+            <a href="profile-manager.php">
+                <i class="svg-icon"><img src="public/icons/icon-profile.svg" alt=""></i>
+                <span>Conta</span>
+            </a>
         </li>
     </ul>
 </footer>

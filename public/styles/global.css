@@ -5,6 +5,7 @@
     --dark-stroke-input: #202020;
     --light-bg-input: #FFFFFF;
     --dark-bg-input: #303030;
+    font-size: 80%;
 }
 
 * {
@@ -13,12 +14,7 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-}
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-decoration: none;
 }
 
 .btn-back {
