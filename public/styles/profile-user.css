@@ -1,0 +1,196 @@
+.flexbox-container-2 {
+background: linear-gradient(179.99deg, rgba(255, 255, 255, 0.89) 0.53%, #EEEEEE 45.31%, #BFBFBF 94.79%) !important;
+}
+
+#follow{
+    display: flex;
+    align-items: center;background: #E0435E;
+    box-shadow: 0px 4px 4px rgba(224, 67, 94, 0.25);
+    border-radius: 10px;
+    padding: .6rem 1.2rem;
+    margin-top:-.3rem;
+    margin-right: -1.3rem;
+}
+
+#follow p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+#follow img{
+    margin-left: .3rem;
+}
+
+#profile-picture img{
+    margin-top: -85px !important;
+}
+
+.flexbox-container-3{
+    width: 100%;
+    padding: 0 2rem;
+}
+
+#school-homework {
+    display: flex;
+    flex-direction: row;
+    padding: .8rem 0rem .5rem 0rem;
+    border-bottom: 1px solid #ABA3A3;
+}
+
+#school-homework > img{
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    background: #aaa;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#school-homework h2{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#school-data{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+#school-data > p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: .6rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#favorites {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 2.5em;
+}
+
+#favorites p{
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-left: .3rem;
+}
+
+#tasks form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+#search-table{
+    background: #FFFFFF;
+    border: 2px solid #C2BEBE;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 1.6rem;
+}
+
+#search-table input{
+    padding-left: .4rem;
+    border-radius: 10px;
+    width: 8rem;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+#search-table input::-webkit-input-placeholder{
+    
+    color: #414141;;
+}
+
+#search-table img{
+    border-left: 2px solid #C2BEBE;
+    height: 100%;
+    padding: .3rem;
+}
+
+#filter select{
+    background: #FFFFFF;
+    border: 2px solid #C2BEBE;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0 .3rem 0 .3rem;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #414141;
+    width: 9rem;
+    height: 1.6rem;
+}
+
+#tables{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ABA3A3;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row > img{
+    width: 94px;
+    height: 94px;
+    padding: 15px;
+    background: #aaa;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+#action{
+    margin-top: 1rem;
+}
+
+.single-action{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .9rem;
+}
+
+.single-action img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.single-action p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.single-action strong{
+    font-weight: 600 !important;
+    font-style: italic;
+}
+
+p.date{
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
