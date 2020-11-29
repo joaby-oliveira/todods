@@ -1,0 +1,26 @@
+.index-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+}
+
+.nav-logo {
+    margin-left: 10px;
+    height: 70px;
+}
+
+.btn-login {
+    box-shadow: 0px 4px 5px 0px #E0435E 15%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: #E0435E;
+    color: #EDEDED;
+}
