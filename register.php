@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="btn-back">
-        <a href="./index.php">
+        <a href="./login.php">
             <img src="public/icons/icon-back.svg" alt="">
         </a>
     </div>
