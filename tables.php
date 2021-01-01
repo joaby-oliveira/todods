@@ -17,7 +17,7 @@ include "public/components/Header/header.php";
 
 <body>
     <div class="tablePreview-container hide">
-        <div class="close-tablePreview">
+        <div class="closeContainer">
             <img src="public/icons/icon-close.svg" alt="Fechar">
         </div>
         <header>
@@ -87,10 +87,28 @@ include "public/components/Header/header.php";
             </div>
         </div>
     </div>
-        <main class="container">
+    <div class="tableAdd-container hide">
+        <div class="closeContainer">
+            <img src="public/icons/icon-close.svg" alt="Fechar">
+        </div>
+        <header>
+            <h1>Tarefas da escola</h1>
+        </header>
+        <hr>
+        <div class="input-block">
+            <label for="Name">Nome</label>
+            <input type="text" class="input" id="name" name="name" placeholder="Como irá se chamar sua tabela?">
+        </div>
+        <div class="input-block">
+            <label for="">Imagem</label>
+            <input type="file" class="input" id="image" name="image" placeholder="Como irá se chamar sua tabela?">
+            <label for="image" class="input-file">Escolher uma foto <img src="public/icons/icon-plus-circle.svg" alt=""></label>
+        </div>
+    </div>
+    <main class="container">
         <?= createHeader("Aqui estão suas tarefas <img src='public/icons/icon-smile.svg'>"); ?>
         <section class="tables-container">
-            
+
             <article class="table-item">
                 <a href="#">
                     <div class="titleOptions-block">
@@ -137,7 +155,7 @@ include "public/components/Header/header.php";
                 <!-- <img src="https://images.unsplash.com/photo-1602525963389-fde1e08ca487?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Imagem de fundo"> -->
             </article>
 
-            <article class="table-add table-item">
+            <article class="table-add">
                 <a href="#">
                     <i><img src="public/icons/icon-plus.svg" alt="Ícone de adicionar tabela "></i>
                 </a>
